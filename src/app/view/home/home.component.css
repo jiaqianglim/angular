@@ -1,0 +1,39 @@
+.sidenav {
+  height: 100%;
+  border: 1px solid #555;
+  padding: 20px;
+}
+
+.togglesidenavbutton {
+  margin-left: 0;
+  height: 56px;
+}
+.search-form {
+  margin-right: 0;
+}
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.Featured-card {
+  max-width: 360px;
+  height: fit-content;
+}
+.Featured-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.card-container {
+  display: flex;
+}
+.scroll-card {
+  width: 50%;
+  height: 200px;
+}
+.scroll-card-header-image {
+  background-size: cover;
+}
