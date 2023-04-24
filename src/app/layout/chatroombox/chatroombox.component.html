@@ -1,0 +1,22 @@
+<div class="chatroombox">
+  <div class="chatcontainer">
+    <div *ngFor="let ChatMessage of messages">
+      <p>{{ ChatMessage.username }}: {{ ChatMessage.messagebody }}</p>
+    </div>
+  </div>
+  <div class="chatinput">
+    <form [formGroup]="inputForm" (ngSubmit)="submitMessage()">
+      <mat-form-field>
+        <mat-label>Your Message</mat-label>
+        <input
+          class="chatinputbox"
+          type="text"
+          class="search-form-input"
+          matInput
+        /><button matSuffix mat-icon-button>
+          <mat-icon button type="submit">send</mat-icon>
+        </button>
+      </mat-form-field>
+    </form>
+  </div>
+</div>
